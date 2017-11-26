@@ -17,4 +17,3 @@ bot.registry.registerGroup('wtfscott', 'WtfScott')
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login("Mzc0Nzg5MzkyMjIyNjUwMzgw.DNmxyw.lW05M0umZoOBB0X2eXgjvD7xWzM");
