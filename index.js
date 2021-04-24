@@ -18,4 +18,4 @@ bot.registry.registerGroup('rollx', 'Rollx');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login("Mzc0Nzg5MzkyMjIyNjUwMzgw.Xp_Ctg.aHQXdgPG4OIOXkoRxGRwqrJ-ZXw");
+bot.login("");
