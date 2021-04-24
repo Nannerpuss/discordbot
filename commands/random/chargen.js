@@ -38,7 +38,7 @@ class ChargenCommand extends commando.Command {
         var cha = RollStats();
         var totes = str['total'] + dex['total'] + con['total'] + int['total'] + wis['total'] + cha['total'];
 
-        message.channel.send(`Generating Stats for ${message.author}\nStrength: ${str['rolls']},~~${str['thrownroll']}~~\nTotal: ${str['total']}\n\nDexterity: ${dex['rolls']},~~${dex['thrownroll']}~~\n Total: ${dex['total']}\n\nConstitution: ${con['rolls']},~~${con['thrownroll']}~~\n Total: ${con['total']}\n\nIntelligence: ${int['rolls']},~~${int['thrownroll']}~~\n Total: ${int['total']}\n\nWisdom: ${wis['rolls']},~~${wis['thrownroll']}~~\n Total: ${wis['total']}\n\nCharisma: ${cha['rolls']},~~${cha['thrownroll']}~~\n Total: ${cha['total']}\n\nTotal Points: ${totes}`);
+        message.channel.send(`Generating Stats for ${message.author}\n\nStrength: ${str['rolls']},~~${str['thrownroll']}~~ = ${str['total']}\nDexterity: ${dex['rolls']},~~${dex['thrownroll']}~~ = ${dex['total']}\nConstitution: ${con['rolls']},~~${con['thrownroll']}~~ = ${con['total']}\nIntelligence: ${int['rolls']},~~${int['thrownroll']}~~\n = ${int['total']}\nWisdom: ${wis['rolls']},~~${wis['thrownroll']}~~ = ${wis['total']}\n\nCharisma: ${cha['rolls']},~~${cha['thrownroll']}~~ = ${cha['total']}\n\nTotal Points: ${totes}`);
 
     }
 
